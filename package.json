@@ -1,7 +1,7 @@
 {
   "name": "touka-forms",
-  "version": "1.0.0",
-  "description": "Modulo Touka para la gestión de formularios en react",
+  "version": "1.0.1",
+  "description": "Libreria para la gestión de formularios en react",
   "main": "build/index.js",
   "scripts": {
     "start": "babel src -w -d build",
@@ -22,10 +22,8 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^3.8.3",
     "prop-types": "^15.6.2",
-    "ramda": "^0.26.1",
-    "typeface-roboto": "^0.0.54"
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.5",
