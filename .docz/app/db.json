@@ -4,7 +4,7 @@
     "description": "Modulo touka para la gestión de formularios",
     "menu": [],
     "ordering": "descending",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "repository": "https://github.com/candidomorantepelaez/Touka-Forms",
     "native": false,
     "codeSandbox": true,
@@ -16,7 +16,7 @@
     },
     "src": "./",
     "dest": "./docs",
-    "base": "/touka-forms/"
+    "base": "/Touka-Forms/"
   },
   "entries": {
     "src/index.mdx": {

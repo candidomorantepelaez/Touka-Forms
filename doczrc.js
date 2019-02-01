@@ -1,7 +1,7 @@
 export default {
   src: './',
   dest: './docs',
-  base: '/touka-forms/',
+  base: '/Touka-Forms/',
   title: 'Touka Forms',
   description: 'Modulo touka para la gestión de formularios',
   themeConfig: {
