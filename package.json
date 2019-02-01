@@ -1,6 +1,6 @@
 {
   "name": "touka-forms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Libreria para la gestión de formularios en react",
   "main": "build/index.js",
   "scripts": {

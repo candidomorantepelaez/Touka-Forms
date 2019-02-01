@@ -3,6 +3,7 @@
 .eslintrc
 .gitignore
 .docz
+docs
 node_module
 public
 src
