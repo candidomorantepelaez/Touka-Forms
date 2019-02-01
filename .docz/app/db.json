@@ -1,0 +1,116 @@
+{
+  "config": {
+    "title": "Touka Forms",
+    "description": "Modulo touka para la gestión de formularios",
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.0.1",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {
+      "logo": {
+        "src": "./public/images/logoWithName.png",
+        "width": 150
+      }
+    },
+    "src": "./",
+    "dest": "./docs",
+    "base": "/touka-forms/"
+  },
+  "entries": {
+    "src/index.mdx": {
+      "name": "Touka-Forms",
+      "route": "/",
+      "order": 1,
+      "id": "6576455a124f9aaefd860597f03a8fe4",
+      "filepath": "src/index.mdx",
+      "link": null,
+      "slug": "src-index",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "bienvenidos-a-touka-forms",
+          "value": "Bienvenidos a Touka-Forms"
+        },
+        {
+          "depth": 2,
+          "slug": "instalación",
+          "value": "instalación"
+        },
+        {
+          "depth": 2,
+          "slug": "uso",
+          "value": "uso"
+        }
+      ]
+    },
+    "src/components/form.mdx": {
+      "name": "Form",
+      "route": "/form",
+      "id": "a93c51d4dbdd06937348e677cfcaba52",
+      "filepath": "src/components/form.mdx",
+      "link": null,
+      "slug": "src-components-form",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "etiqueta-form",
+          "value": "Etiqueta Form"
+        },
+        {
+          "depth": 2,
+          "slug": "props",
+          "value": "props"
+        }
+      ]
+    },
+    "src/components/show-form-global-errors.mdx": {
+      "name": "ShowFormGlobalErrors",
+      "route": "/show-form-global-errors",
+      "id": "1576ee09cadb7e5f334b764739df6fc6",
+      "filepath": "src/components/show-form-global-errors.mdx",
+      "link": null,
+      "slug": "src-components-show-form-global-errors",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "componente-showformglobalerrors",
+          "value": "Componente ShowFormGlobalErrors"
+        },
+        {
+          "depth": 2,
+          "slug": "props",
+          "value": "props"
+        }
+      ]
+    },
+    "src/hocs/with-form-context.mdx": {
+      "name": "WithFormContext",
+      "route": "/with-form-context",
+      "id": "6ac8dc6fdb09265ed57b21a2c8bd4a6c",
+      "filepath": "src/hocs/with-form-context.mdx",
+      "link": null,
+      "slug": "src-hocs-with-form-context",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "funcion-withformcontext",
+          "value": "Funcion WithFormContext"
+        },
+        {
+          "depth": 2,
+          "slug": "uso",
+          "value": "uso"
+        }
+      ]
+    }
+  }
+}

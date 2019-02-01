@@ -1,0 +1,40 @@
+---
+name: Form
+route: '/form'
+---
+
+import { PropsTable } from 'docz'
+import Form from './form'
+
+# Etiqueta Form
+
+Etiqueta que crea y gestiona el estado del contexto para el formulario.
+
+Esta etiqueta crea un contexto en el que se exponen publicamente parte del estado del formulario,
+como son el valor y los errores, y acciones o funciones que pueden ser ejecutadas desde cualquier parte.
+
+Para acceder a este contexto se usa la funcion de alto nivel (HOC) [withFormContext](/with-form-context).
+
+Actualmente, dentro del contexto tenemos acceso a la siguiente informacion:
+  * initialValue: Objeto que contiene el valor inicial del formulario, es el valor que se usará al resetar el formulario.
+  * globalErrors: Array de string que contiene los errores globales del formulario,
+    estos se pueden mostrar directamente usando la etiqueta ShowFormGlobalErrors.
+  * fields: Objeto que contiene las propiedades y el valor de cada input que estan conectado al formulario.
+
+y a las siguientes acciones y funciones:
+  * onFieldChange: Funcion que se debe ejecutar al modificarse un input, para informar del cambio al contexto.
+    Se debe pasar como parametro el nuevo valor del input(el objeto completo, con todas las props),
+    que será almacenado en el contexto reemplazando el anterior valor para dicho input.
+  * onFieldMount: Funcion que ejecuta internamente la funcion [withFormContext](/with-form-context),
+    que sirve para registrar el input en el contexto,
+    en dicha funcion se pasa por parametro todas las props del input, el contexto inserta el input en el objeto fields,
+    y ademas, carga en el, el valor inicial.
+  * onSubmit: Funcion que ejecuta el envio del formulario.
+
+Además, esta etiqueta admite todos los atributos que admite la etiqueta [form](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form) de html,
+todos las props que no sean las expuestas en la tabla seran pasadas directamente a la etiqueta form interna.
+Hay que tener en cuenta que el estado del formulario es controlado, y que algunos atributos de la etiqueta [form](https://developer.mozilla.org/es/docs/Web/HTML/Elemento/form)
+nativa de html pueden no tener mucho sentido, o que no funcionen de la manera esperada.
+
+## props
+<PropsTable of={Form} />

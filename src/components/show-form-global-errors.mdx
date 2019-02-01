@@ -1,0 +1,17 @@
+---
+name: ShowFormGlobalErrors
+route: '/show-form-global-errors'
+---
+
+import { PropsTable } from 'docz'
+import ShowFormGlobalErrors from './show-form-global-errors'
+
+# Componente ShowFormGlobalErrors
+
+Este componente es el encargado de mostrar los errores globales del formulario.
+Su funcionamiento es muy basico se conecta al contexto del formulario,
+en caso de que el formulario tenga errores globales renderiza una etiqueta ul
+en la que por cada error incluimos una etiqueta li con el texto del error.
+
+## props
+<PropsTable of={ShowFormGlobalErrors} />

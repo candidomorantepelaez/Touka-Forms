@@ -1,0 +1,34 @@
+---
+name: WithFormContext
+route: '/with-form-context'
+---
+
+import { PropsTable } from 'docz'
+import withFormContext from './with-form-context'
+
+# Funcion WithFormContext
+
+Con esta funcion de alto nivel(HOC) se puede acceder al contexto que se crea con
+la etiqueta [Form](/form), inyectando al componente las props necesarias para la comunicacion
+entre el input y el formulario.
+
+Para usar withFormContext, es obligatorio que el componente que se le pasa por parametro
+tenga la propiedad name declarada, necesaria para el registro del input dentro del formulario.
+
+Las props que nos inyecta esta función en el componente son:
+
+* initialValue: Es el valor inicial que el formulario tiene de ese input.
+* value: Es el valor actual del input en el formulario.
+* global_errors: Array de string con los errores globales del formulario.
+* errors: Array de string con los errores del input.
+* error: Booleano que indica si el input tiene errores.
+* onChange: Funcion que registra el cambio en el valor del input en el contexto del formulario,
+  se debe pasar por parametro el nuevo valor del input.
+* onSubmit: Funcion que permite el envio del formulario desde el input.
+
+## uso
+```
+import withFormContext from 'touka-forms'
+
+withFormContext(Component)
+```

@@ -1,0 +1,53 @@
+{
+  "name": "touka-forms",
+  "version": "1.0.0",
+  "description": "Modulo Touka para la gestión de formularios en react",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "babel src -w -d build",
+    "transpile": "babel src -d build",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "prepublishOnly": "npm run transpile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/candidomorantepelaez/Touka-Forms.git"
+  },
+  "keywords": ["react", "form"],
+  "author": "Candido Morante Pelaez",
+  "homepage": "https://candidomorantepelaez.github.io/Touka-Forms",
+  "bugs": {
+    "url": "https://github.com/candidomorantepelaez/Touka-Forms/issues"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^3.8.3",
+    "prop-types": "^15.6.2",
+    "ramda": "^0.26.1",
+    "typeface-roboto": "^0.0.54"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.12.17",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-watch": "^4.0.2",
+    "react": "^16.4.0",
+    "redux-devtools-extension": "^2.13.7"
+  },
+  "peerDependencies": {
+    "react": "^16.4.0"
+  }
+}
