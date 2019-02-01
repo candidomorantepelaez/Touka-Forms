@@ -1,0 +1,19 @@
+{
+  "vendors.js": "/touka-forms/static/js/vendors.0be50375.js",
+  "vendors.js.map": "/touka-forms/static/js/vendors.200310d1f6de6c87771e.js.map",
+  "app.js": "/touka-forms/static/js/app.1cf014e9.js",
+  "app.js.map": "/touka-forms/static/js/app.200310d1f6de6c87771e.js.map",
+  "runtime~app.js": "/touka-forms/static/js/runtime~app.200310d1f6de6c87771e.js",
+  "runtime~app.js.map": "/touka-forms/static/js/runtime~app.200310d1f6de6c87771e.js.map",
+  "src-components-form.js": "/touka-forms/static/js/src-components-form.c73d0b13.js",
+  "src-components-form.js.map": "/touka-forms/static/js/src-components-form.200310d1f6de6c87771e.js.map",
+  "src-components-show-form-global-errors.js": "/touka-forms/static/js/src-components-show-form-global-errors.a997cd61.js",
+  "src-components-show-form-global-errors.js.map": "/touka-forms/static/js/src-components-show-form-global-errors.200310d1f6de6c87771e.js.map",
+  "src-hocs-with-form-context.js": "/touka-forms/static/js/src-hocs-with-form-context.a187719b.js",
+  "src-hocs-with-form-context.js.map": "/touka-forms/static/js/src-hocs-with-form-context.200310d1f6de6c87771e.js.map",
+  "src-index.js": "/touka-forms/static/js/src-index.5da70b0a.js",
+  "src-index.js.map": "/touka-forms/static/js/src-index.200310d1f6de6c87771e.js.map",
+  "static/js/7.143e4daf.js": "/touka-forms/static/js/7.143e4daf.js",
+  "static/js/7.200310d1f6de6c87771e.js.map": "/touka-forms/static/js/7.200310d1f6de6c87771e.js.map",
+  "index.html": "/touka-forms/index.html"
+}
