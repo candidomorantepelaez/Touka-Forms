@@ -14,7 +14,10 @@
     "type": "git",
     "url": "https://github.com/candidomorantepelaez/Touka-Forms.git"
   },
-  "keywords": ["react", "form"],
+  "keywords": [
+    "react",
+    "form"
+  ],
   "author": "Candido Morante Pelaez",
   "homepage": "https://candidomorantepelaez.github.io/Touka-Forms",
   "bugs": {
